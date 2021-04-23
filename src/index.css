@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.display-3 {
+  text-align: center;
+  font-family: product-sans;
+}
+
+@font-face {
+  font-family: 'product-sans-bold';
+  src: local('title-font'), url('./fonts/Product\ Sans\ Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'product-sans';
+  src: local('title-font'), url('./fonts/Product\ Sans\ Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'akira';
+  src: local('title-font'), url('./fonts/akira-expanded-demo.otf') format('opentype');
+}
