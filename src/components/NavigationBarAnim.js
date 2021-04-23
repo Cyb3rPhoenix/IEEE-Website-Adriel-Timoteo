@@ -21,7 +21,7 @@ const Navigationbar = () => {
     }, [])
     
     return (
-        <Navbar expand="md" fixed="top" style={{backgroundColor: navBackground ? '#304a55' : 'transparent'}}>
+        <Navbar expand="md" fixed="top" variant="dark" style={{backgroundColor: navBackground ? '#304a55' : 'transparent'}}>
         <Container fluid>
             <Navbar.Brand href="#home" style={navbarText}>Adriel Timoteo</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

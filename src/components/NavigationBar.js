@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const Navigationbar = () => {
     
     return (
-        <Navbar expand="md" sticky="top" style={{backgroundColor: "#304a55"}}>
+        <Navbar expand="md" sticky="top" variant="dark" style={{backgroundColor: "#304a55"}}>
         <Container fluid>
             <Navbar.Brand href="#home" style={navbarText}>Adriel Timoteo</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

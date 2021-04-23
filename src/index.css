@@ -17,6 +17,30 @@ code {
   font-family: product-sans;
 }
 
+.display-4 {
+  text-align: center;
+  font-family: product-sans;
+}
+
+.display-5 {
+  font-size: xx-large;
+  font-family: product-sans;
+}
+
+.centered {
+  text-align:center;
+  align-items:center;
+  justify-content:center;
+}
+
+.sectionText {
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: justify;
+  font-family: product-sans;
+}
+
 @font-face {
   font-family: 'product-sans-bold';
   src: local('title-font'), url('./fonts/Product\ Sans\ Bold.ttf') format('truetype');
